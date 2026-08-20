@@ -29,7 +29,7 @@ This repository explores how to make AI-powered creative generation more reliabl
 
 ## The Solution
 
-This project implements a fault-tolerant visual asset generation pipeline designed for internal marketing operations.
+Implements a fault-tolerant visual asset generation pipeline designed for internal marketing operations.
 
 Instead of treating external API failures as terminal errors, the system introduces resilience mechanisms that protect the workflow, preserve user progress, and enable batch generation to continue under controlled conditions.
 
@@ -162,6 +162,4 @@ They need workflows that can handle errors, preserve progress, maintain brand co
 
 ## Status
 
-Proof of concept.
-
-This project demonstrates how fault tolerance, session-based orchestration, and in-memory batch processing can improve the reliability of AI-powered brand asset generation workflows.
+Demonstrates how fault tolerance, session-based orchestration, and in-memory batch processing can improve the reliability of AI-powered brand asset generation workflows.
